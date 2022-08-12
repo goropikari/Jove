@@ -1,9 +1,8 @@
-
 * Breaking news!
   - We have ported Dr. Tyler Sorensen's BDD tool into Jove (discussed in 21_NPC_Lambda)
   - This was given via a web interface (http://formal.cs.utah.edu:8080/pbl/BDD.php) which is under maintenance (sometimes)
   - Check it out by running BDD.ipynb :) where this web dependency is removed!
-  
+
 * TL; DR
   - THE CONTENTS of this webpage are based on my textbook
   [Automata and Computability: A Programmer's Perspective][bookurl],
@@ -25,7 +24,7 @@
   - Assignments are delivered as notebooks and the students
     - answer the theoretical questions using Latex markdowns
     - answer the Jove (experimental) questions using Colab, submitting finished notebooks
-  - For instructors: I have all the solutions for Assignments, Quizzes, and End-of-Chapter exercises 
+  - For instructors: I have all the solutions for Assignments, Quizzes, and End-of-Chapter exercises
   - Last but not least, see the practical tie-in by visiting the various notebook (here is a sampling):
     - 01_Computability_Languages/1c_Language_Basics.ipynb
       - use of Widgets to show "star" working
@@ -33,7 +32,7 @@
       - DFA definition and animation
     - 07_NFA2RE/NFA_to_RE.ipynb
       - NFA to RE conversion
-    - 11_CFG/ 
+    - 11_CFG/
       - Calculator_with_Parse_Tree_Drawing.ipynb
         - explains Expression Parsing, comparing different programming languages
       - Drive_PDA_Based_Parsing.ipynb
@@ -44,10 +43,10 @@
         - explains how "code generation" (NFA generation) from REs works
     - 17_DTMs_and_NDTMs/CH13-Asg8.ipynb
       - DTM and NDTM animation
-	
+
   - I am *VERY* keen on making Jove a community project where YOU CAN CONTRIBUTE!
     - We can talk more; drop me an email at ganesh@cs.utah.edu (or issue Git pull-requests)
-  
+
 * ***NOW FOR THE LONGER VERSION***
 
 * Jove helps you learn about various Models of Computation as well as what is usually called ``Automata Theory''
@@ -107,3 +106,13 @@
 
 
 
+# Setup by VSCode devcontainer
+
+- Ctrl-Shift-p
+  - Remote-Containers: Open Folder in Container...
+- Open terminal
+- jupyter lab
+  - click displayed link
+
+Jupyter extension doesn't support some these notebook rendering: ex. machine animation.
+So you should use jupyter lab at your browser such as goolge chrome, firefox and so on.
